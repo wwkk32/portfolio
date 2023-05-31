@@ -9,7 +9,10 @@ text-decoration: underline;
 color:#fb7ca6;
  }
 
-
+img
+{
+opacity: 1;
+}
 
 body
  {
@@ -37,11 +40,16 @@ margin-left: auto;
 padding: 0.5em 1em;
 margin: 2em 0;
 color: #5d627b;
-background: white;
+background-color: rgba(255,255,255,0.7);
 border-top: solid 5px #5d627b;
 box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-opacity: 0.7;
+
+
  }
 
+.box1inner
+ {
+display: flex;
+ }
 
 
