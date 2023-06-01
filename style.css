@@ -76,9 +76,65 @@ margin-bottom:0px;
 margin:1.5em;
  }
 
-dt
+.boxcr
  {
-background-color: #505500;
+display: flex;
+margin:1.5em;
+ }
+
+.gameinfo
+ {
+
+ }
+
+.career
+ {
+display:table;
+width:500px;
+margin: 0;
+padding: 0;
+border-bottom: dashed #0aa10d 1px;
  }
 
 
+.career dt
+ {
+display: table-cell;
+background-color: #cfffd0;
+width:20%;
+vertical-align: middle;
+
+ }
+
+.career dd
+ {
+display: table-cell;
+background-color: #ffffff;
+margin: 0;
+vertical-align: middle;
+ }
+
+
+ul
+ {
+padding: 0px;
+margin: 0px;
+ }
+
+li
+ {
+padding: 0px;
+list-style-type: none;
+
+ }
+
+.comment
+ {
+width:500px;
+ }
+
+.gameimage
+ {
+text-align: center;
+
+ }
