@@ -75,4 +75,27 @@ box-sizing: border-box; /* はみ出し防止 */
 margin:1em;
  }
 
+table
+ {
+margin: 0.5em;
+border: 1px solid;
+backgroung-color: #808800;
+font-sixe:12px;
+line-height:120%;
+ }
 
+td {
+ padding: 2px;
+ border: solid 1px #748ca5;
+}
+
+.fc {
+ background: #e3faf8;
+ font-weight: bold;
+ width:15%;
+}
+
+.exp
+{
+ background-color: #888888;
+}
