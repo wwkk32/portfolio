@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 a
  {
 text-decoration: none;
@@ -77,3 +78,106 @@ margin:1.5em;
  }
 
 
+=======
+a
+ {
+text-decoration: none;
+color: #074199;
+ }
+a:hover
+ {
+text-decoration: underline;
+color:#fb7ca6;
+ }
+
+header
+ {
+width: 800px;
+height: 150px;
+background-color: #505050;
+color: #ffffff;
+padding:0px;
+font-size:30px;
+line-height: 70px;
+
+ }
+
+body
+ {
+margin-top: 0px;
+font-size: 13px;
+line-height: 140%;
+
+background-attachment: fixed;
+
+ repeat
+ center
+ }
+
+.container
+ {
+width: 100%;
+max-width: 800px;
+margin-right: auto;
+margin-left: auto;
+background:linear-gradient(#aaccff, #d8e8ff);
+ }
+
+.box1 
+ {
+width: 750px;
+padding: 0px 0px 0px 0px;
+margin-top: 3em;
+margin-right: auto;
+margin-left: auto;
+color: #392517;
+background-color: #ffffff;
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+border-right: solid 1px #e0ecff;
+border-left: solid 1px #e0ecff;
+border-bottom: solid 1px #e0ecff;
+
+ }
+
+h2
+ {
+color: #ffffff;
+background-color:#392517;
+width: 100%;
+font-size: 1.8em;
+height: 2.2em;
+line-height: 2.3em;
+padding-left: 0.6em;
+box-sizing: border-box; /* はみ出し防止 */
+ }
+
+.box1inner
+ {
+margin:1em;
+ }
+
+table
+ {
+margin: 0.5em;
+border: 1px solid;
+backgroung-color: #808800;
+font-sixe:12px;
+line-height:120%;
+ }
+
+td {
+ padding: 2px;
+ border: solid 1px #748ca5;
+}
+
+.fc {
+ background: #e3faf8;
+ font-weight: bold;
+ width:15%;
+}
+
+.exp
+{
+ background-color: #888888;
+}
+>>>>>>> 993426a86e034afcd6fe3f28372659b04262eef4
