@@ -13,12 +13,52 @@ header
  {
 width: 800px;
 height: 150px;
-background-color: #505050;
-color: #ffffff;
 padding:0px;
-font-size:30px;
-line-height: 70px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 0;
+margin-bottom: 0;
 background-image: url(img/head.jpg);
+overflow:hidden;
+ }
+
+header .hcon
+ { color:#202020;
+ }
+
+header .title
+ {
+height: 100px;
+font-size:30px;
+line-height: 100px;
+margin-top: auto;
+margin-left: auto;
+/* background-color: #a0a0a0; */
+margin-left:0.3em;
+ }
+
+header .menuall
+ {
+width: 400px;
+height: 50px;
+/* background-color: #ffa0ff; */
+display: flex;
+justify-content:space-around;
+align-items: end;
+float:right;
+
+ }
+
+header .menu
+ {
+width: 90px;
+height: 30px;
+font-size: 18px;
+/* background-color: #ffa0a0; */
+border: solid 1px;
+line-height: 40px;
+text-align:center
+
  }
 
 body
@@ -26,19 +66,21 @@ body
 margin-top: 0px;
 font-size: 13px;
 line-height: 140%;
+background:linear-gradient(#ffffff, 80%, #aaccff);
+background-attachment:fixed;
 
- repeat
- center
  }
 
-.container
+.mainbg
  {
 width: 100%;
 max-width: 800px;
 margin-right: auto;
 margin-left: auto;
-/* background:linear-gradient(#aaccff, #d8e8ff);*/
-background-color:#505050;
+margin-top: 0;
+margin-bottom: 0;
+padding-top: 0;
+
 
  }
 
@@ -61,7 +103,7 @@ border-bottom: solid 1px #e0ecff;
 h2
  {
 color: #ffffff;
-background-color:#aaccff;
+background-color:#cfffd0;
 width: 100%;
 font-size: 1.8em;
 height: 2.2em;
