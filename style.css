@@ -18,7 +18,7 @@ color: #ffffff;
 padding:0px;
 font-size:30px;
 line-height: 70px;
-
+background-image: url(img/head.jpg);
  }
 
 body
@@ -26,8 +26,6 @@ body
 margin-top: 0px;
 font-size: 13px;
 line-height: 140%;
-
-background-attachment: fixed;
 
  repeat
  center
@@ -39,7 +37,9 @@ width: 100%;
 max-width: 800px;
 margin-right: auto;
 margin-left: auto;
-background:linear-gradient(#aaccff, #d8e8ff);
+/* background:linear-gradient(#aaccff, #d8e8ff);*/
+background-color:#505050;
+
  }
 
 .box1 
@@ -61,7 +61,7 @@ border-bottom: solid 1px #e0ecff;
 h2
  {
 color: #ffffff;
-background-color:#392517;
+background-color:#aaccff;
 width: 100%;
 font-size: 1.8em;
 height: 2.2em;
@@ -69,6 +69,7 @@ line-height: 2.3em;
 padding-left: 0.6em;
 box-sizing: border-box; /* はみ出し防止 */
 margin-bottom:0px;
+text-shadow: 2px 2px rgba(60, 85, 120, 0.5);
  }
 
 .box1inner
@@ -84,13 +85,13 @@ margin:1.5em;
 
 .gameinfo
  {
-
+border-top: dashed #0aa10d 1px;width:490px;
  }
 
 .career
  {
 display:table;
-width:500px;
+width:490px;
 margin: 0;
 padding: 0;
 border-bottom: dashed #0aa10d 1px;
@@ -101,9 +102,10 @@ border-bottom: dashed #0aa10d 1px;
  {
 display: table-cell;
 background-color: #cfffd0;
-width:20%;
+width:10em;
 vertical-align: middle;
-
+text-align :center;
+font-weight: bold;
  }
 
 .career dd
@@ -112,6 +114,10 @@ display: table-cell;
 background-color: #ffffff;
 margin: 0;
 vertical-align: middle;
+padding-left: 0.5em;
+padding-top:0.2em;
+padding-bottom:0.2em;
+line-height: 1.2em;
  }
 
 
@@ -131,10 +137,18 @@ list-style-type: none;
 .comment
  {
 width:500px;
+padding-top:0.5em;
  }
+
+.comment p
+ { 
+margin:0.2em;
+ }
+
 
 .gameimage
  {
-text-align: center;
+text-align: right;
+width:300px;
 
  }
