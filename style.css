@@ -194,3 +194,28 @@ text-align: right;
 width:300px;
 
  }
+
+/*作品ページ*/
+
+.gallery
+ {
+margin-top: 3em;
+/* justify-contenr: center; */
+text-align: center;
+display:flex;
+flex-wrap: wpap;
+ }
+
+.gallery img
+ {
+border: 1px solid #c0c0ff;
+ }
+
+.gallery li
+{
+display: inline-block;
+padding: 0;
+width:100%;
+}
+
+
