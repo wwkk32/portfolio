@@ -195,7 +195,7 @@ width:300px;
 
  }
 
-/*作品ページ*/
+/* 作品ページ */
 
 .gallery
  {
@@ -208,7 +208,8 @@ flex-wrap: wpap;
 
 .gallery img
  {
-border: 1px solid #c0c0ff;
+border: 1px solid #d0d0d0;
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
  }
 
 .gallery li
@@ -216,6 +217,12 @@ border: 1px solid #c0c0ff;
 display: inline-block;
 padding: 0;
 width:100%;
+transform: scale(1.0);
+transition: all 0.1s ease-out;
 }
 
-
+.gallery li:hover
+ {
+  z-index: 10;
+  transform: scale(1.1) ;
+ }
