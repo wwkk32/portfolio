@@ -1,12 +1,13 @@
 a
  {
 text-decoration: none;
-color: #074199;
+color: #cfffd0;
  }
 a:hover
  {
-text-decoration: underline;
-color:#fb7ca6;
+text-decoration: none;
+color:#cfffd0;
+text-shadow: 3px 3px 2px rgba(00, 00, 00, 0.8);;
  }
 
 header
@@ -28,37 +29,47 @@ header .hcon
 
 header .title
  {
-height: 100px;
 font-size:30px;
+font-weight: bold;
 line-height: 100px;
 margin-top: auto;
 margin-left: auto;
-/* background-color: #a0a0a0; */
 margin-left:0.3em;
+color: #cfffd0;
+text-shadow: 3px 3px 2px rgba(48, 64, 39, 0.4);
+/* グラデーション */
+background: linear-gradient(#ffffff 30%, #cfffd0 70%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
  }
+
+header .title::before{
+content:"wako nakai portfolio";
+position: absolute;
+color: rgba(0, 0, 0, 0);
+background: linear-gradient(#ffffff 30%, #cfffd0 70%);
+-webkit-background-clip: text;
+text-shadow: none;}
 
 header .menuall
  {
 width: 400px;
 height: 50px;
-/* background-color: #ffa0ff; */
 display: flex;
 justify-content:space-around;
 align-items: end;
 float:right;
-
  }
 
 header .menu
  {
-width: 90px;
+width: 7em;
 height: 30px;
 font-size: 18px;
-/* background-color: #ffa0a0; */
-border: solid 1px;
+font-weight: bold;
 line-height: 40px;
-text-align:center
-
+text-align:center;
+text-shadow: 2px 2px 1px rgba(48, 64, 39, 0.6);
  }
 
 body
@@ -224,5 +235,37 @@ transition: all 0.1s ease-out;
 .gallery li:hover
  {
   z-index: 10;
-  transform: scale(1.1) ;
+  transform: scale(1.1);
  }
+
+
+.over .caption
+ {
+font-size:		100%;
+line-height: 108%;
+padding-top:		0px;
+padding-bottom: 2px;;
+padding-right: 0.3em;
+color:			#fff;
+position:		absolute;	/* 絶対位置指定 */
+bottom:			0px;
+right:			0px;
+text-align:right;
+}
+.over .mask
+ {
+width:			235px;
+height:			170px;
+position:		absolute;	/* 絶対位置指定 */
+top:			1px;
+left:			16px;
+opacity:		0;	/* マスクを表示しない */
+background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+-webkit-transition:	all 0.2s ease;
+transition:		all 0.2s ease;
+}
+
+.over:hover .mask 
+{
+	opacity:		1;	/* マスクを表示する */
+}

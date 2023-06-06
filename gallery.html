@@ -5,23 +5,20 @@
 <meta charaset="UTF-8">
 
 <link rel="stylesheet" type="text/css" href="style.css">
-  <style type=text/css>
-   <!-- スタイルシート追加はここに -->
-  </style>
+<link rel="stylesheet" href="lightbox.min.css">
 
  </head>
 <body>
 
  <div class="container">
 
-<!-- へっだ！！！ -->
 <header>
  <div class="hcon">
-<div class="title">ぽーとふぉりおです。 </div>
+<div class="title">wako nakai portfolio</div>
 <div class="menuall">
-  <div class="menu"><a href="index.html">ぷろふ</a></div>
-  <div class="menu"><a href="works.html">職務経歴</a></div>
-  <div class="menu"><a href="gallery.html">作品等</a></div>
+  <div class="menu"><a href="index.html"><font color="#eaffea">プロフィール</font></a></div>
+  <div class="menu"><a href="works.html"><font color="#eaffea">職務経歴</font></a></div>
+  <div class="menu"><a href="gallery.html"><font color="#eaffea">作品</font></a></div>
 
 
 </div><!-- menuall-->
@@ -30,12 +27,33 @@
 
  <div class="mainbg">
 
-<ul class="gallery">
-  <li><img src="img/gallery/001_sumb.jpg" width="235px" height="170"></li>
-  <li><img src="img/gallery/002_sumb.jpg" width="235px" height="170"></li>
-  <li><img src="img/gallery/003_sumb.jpg" width="235px" height="170"></li>
-</ul>
-<ul class="gallery">
+<ul class="gallery">			<!-- ギャラリー1行目 -->
+	<li class="over">
+<a href="img/gallery/001_big.jpg" data-lightbox="gallery1" data-title="[2022]カトリーヌ・ケイロン<br>適当に書いたやつです。">
+		<img src="img/gallery/001_sumb.jpg" width="235px" height="170">
+<div class="mask">
+<div class="caption"><b>カトリーヌ・ケイロン</b><br><small>ラグナロクオンライン</small></div>
+</div></a>
+ </li>
+
+	<li class="over">
+<a href="img/gallery/002_big.jpg" data-lightbox="gallery1" data-title="[2023]カーディナルズ<br>みんなのカーディナル">
+		<img src="img/gallery/002_sumb.jpg" width="235px" height="170">
+<div class="mask">
+<div class="caption"><b>カーディナルズ</b><br><small>ああああああああああああああ</small></div>
+</div></a>
+	</li>
+
+	<li class="over">
+<a href="img/gallery/003_big.jpg" data-lightbox="gallery1" data-title="【2022】Rの民<br>将来性のR二人だよ">
+		<img src="img/gallery/003_sumb.jpg" width="235px" height="170">
+<div class="mask">
+<div class="caption"><b>Rの民</b><br><small>ギギギ... ユ ル ス</small></div>
+</div></a>
+	</li>
+</ul>					<!-- ギャラリー1行目ここまで -->
+
+<ul class="gallery"> <!-- ギャラリー2行目 -->
   <li><img src="img/gallery/001_sumb.jpg" width="235px" height="170"></li>
   <li><img src="img/gallery/001_sumb.jpg" width="235px" height="170"></li>
   <li><img src="img/gallery/002_sumb.jpg" width="235px" height="170"></li>
@@ -44,3 +62,8 @@
 
 
  </div> <!-- /mainbg閉じ/ -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
+</body>
+</html>
