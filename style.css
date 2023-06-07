@@ -113,17 +113,20 @@ border-bottom: solid 1px #e0ecff;
 
 h2
  {
-color: #ffffff;
+color: #457f46;
 background-color:#cfffd0;
 width: 100%;
-font-size: 1.8em;
-height: 2.2em;
-line-height: 2.3em;
+font-size: 1.5em;
+height: 2em;
+line-height: 2.2em;
 padding-left: 0.6em;
 box-sizing: border-box; /* はみ出し防止 */
 margin-bottom:0px;
-text-shadow: 2px 2px rgba(60, 85, 120, 0.5);
+text-shadow: 2px 2px rgba(255, 255, 255, 1);
  }
+
+
+
 
 .box1inner
  {
@@ -136,72 +139,56 @@ display: flex;
 margin:1.5em;
  }
 
+/* 職務経歴 */
+
 .gameinfo
  {
-border-top: dashed #0aa10d 1px;width:490px;
+
+width:600px;
+padding-left:auto;
  }
 
-.career
+.gameinfo table
  {
-display:table;
-width:490px;
-margin: 0;
-padding: 0;
+width: 100%;
+border-collapse:collapse;
+margin-left: auto;
+margin-right:auto;
+ }
+
+.gameinfo td
+ {
 border-bottom: dashed #0aa10d 1px;
+border-top: dashed #0aa10d 1px;
+padding:0.1em;
+ } 
+
+.gameinfo ul
+ {
+margin-top: 0.5em;
+margin-bottom:0.3em;
+line-height:130%;
  }
 
-
-.career dt
+.w_cap
  {
-display: table-cell;
-background-color: #cfffd0;
-width:10em;
-vertical-align: middle;
-text-align :center;
+width: 10em;
 font-weight: bold;
- }
-
-.career dd
- {
-display: table-cell;
-background-color: #ffffff;
-margin: 0;
-vertical-align: middle;
-padding-left: 0.5em;
-padding-top:0.2em;
-padding-bottom:0.2em;
-line-height: 1.2em;
- }
-
-
-ul
- {
-padding: 0px;
-margin: 0px;
- }
-
-li
- {
-padding: 0px;
-list-style-type: none;
-
+text-align:center;
+background-color: #cfffd0;
  }
 
 .comment
  {
-width:500px;
-padding-top:0.5em;
- }
+border-bottom: dashed #0aa10d 1px;
+border-top: dashed #0aa10d 1px;
+line-height: 130%;
 
-.comment p
- { 
-margin:0.2em;
- }
-
+ } 
 
 .gameimage
  {
-text-align: right;
+text-align: center;
 width:300px;
 
  }
