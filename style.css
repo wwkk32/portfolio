@@ -1,13 +1,14 @@
 a
  {
 text-decoration: none;
-color: #cfffd0;
+color: #457f46;
+font-weight: bold;
  }
+
 a:hover
  {
 text-decoration: none;
-color:#cfffd0;
-text-shadow: 3px 3px 2px rgba(00, 00, 00, 0.8);;
+color:#ffa0cc;
  }
 
 header
@@ -72,6 +73,13 @@ text-align:center;
 text-shadow: 2px 2px 1px rgba(48, 64, 39, 0.6);
  }
 
+header a:hover
+ {
+text-decoration: none;
+color:#cfffd0;
+text-shadow: 3px 3px 2px rgba(00, 00, 00, 0.8);
+ }
+
 body
  {
 margin-top: 0px;
@@ -91,8 +99,26 @@ margin-left: auto;
 margin-top: 0;
 margin-bottom: 0;
 padding-top: 0;
+display:block;
 
+animation-name:fadeUpAnime;
+animation-duration:0.5s;
+animation-fill-mode:forwards;
+opacity:0;
+ }
 
+ @keyframes fadeUpAnime
+ {
+ from 
+  {
+   opacity: 0;
+   transform: translateY(20px);
+  }
+ to
+  {
+   opacity: 1;
+   transform: translateY(0);
+  }
  }
 
 .box1 
@@ -125,9 +151,6 @@ margin-bottom:0px;
 text-shadow: 2px 2px rgba(255, 255, 255, 1);
  }
 
-
-
-
 .box1inner
  {
 margin:1.5em;
@@ -139,11 +162,50 @@ display: flex;
 margin:1.5em;
  }
 
+/* スキルテーブル */
+
+.skill
+ {
+width:90%;
+background-color: #effff0;
+border-collapse: collapse;
+margin-left:auto;
+margin-right:auto;
+  }
+
+.skill tr
+ {
+border-top: solid 0.4em #ffffff;
+ }
+
+.s_cap
+ {
+background-color: #cfffd0;
+text-align: center;
+width: 17em;
+height:1.3em;
+padding-top: 0.4em;
+padding-bottom: 0.4em;
+font-weight: bold;
+  }
+
+.s_captri
+ {
+width:1.3em;
+height:1.3em;
+background-color: #cfffd0;
+clip-path: polygon(0 0, 0% 100%, 100% 50%);
+ }
+
+.s_det
+ {
+padding-left: 0.8em;
+ }
+
 /* 職務経歴 */
 
 .gameinfo
  {
-
 width:600px;
 padding-left:auto;
  }
@@ -161,6 +223,7 @@ margin-right:auto;
 border-bottom: dashed #0aa10d 1px;
 border-top: dashed #0aa10d 1px;
 padding:0.1em;
+padding-left:0.3em;
  } 
 
 .gameinfo ul
@@ -168,6 +231,8 @@ padding:0.1em;
 margin-top: 0.5em;
 margin-bottom:0.3em;
 line-height:130%;
+list-style-type: square;
+padding-left: 2.3em;
  }
 
 .w_cap
@@ -190,39 +255,44 @@ line-height: 130%;
  {
 text-align: center;
 width:300px;
+ }
 
+.gameimage a
+ {
+text-decoration: underline;
+font-size: 8px;
+line-height:8px;
  }
 
 /* 作品ページ */
 
 .gallery
  {
-margin-top: 3em;
-/* justify-contenr: center; */
-text-align: center;
-display:flex;
-flex-wrap: wpap;
+margin-top: 4em;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+/* background-color:#505055; テスト用 */
+width: 800px;
+ }
+
+.hoverbox
+ {
+position: relative;
+ }
+
+.hoverbox:hover
+ {
+transform: scale(1.1);
+-webkit-transition:	all 0.2s ease;
+transition:		all 0.2s ease;
  }
 
 .gallery img
  {
 border: 1px solid #d0d0d0;
 box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
- }
-
-.gallery li
-{
-display: inline-block;
-padding: 0;
-width:100%;
-transform: scale(1.0);
-transition: all 0.1s ease-out;
-}
-
-.gallery li:hover
- {
-  z-index: 10;
-  transform: scale(1.1);
+margin-bottom:2em;
  }
 
 
@@ -239,13 +309,16 @@ bottom:			0px;
 right:			0px;
 text-align:right;
 }
+
 .over .mask
  {
-width:			235px;
-height:			170px;
+width:			237px;
+height:			172px;
 position:		absolute;	/* 絶対位置指定 */
-top:			1px;
-left:			16px;
+bottom: 0;
+left: 0;
+right: 0;
+top: 0;
 opacity:		0;	/* マスクを表示しない */
 background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
 -webkit-transition:	all 0.2s ease;
