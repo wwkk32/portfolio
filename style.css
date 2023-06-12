@@ -219,6 +219,13 @@ margin:1.5em;
 
 /* ぷろふぃ～～～る */
 
+.prof
+ {
+background-image: url(img/prof.png);
+background-repeat: no-repeat;
+background-position: right bottom;
+ }
+
 .contact
  {
 display: flex;
