@@ -80,6 +80,7 @@ color:#cfffd0;
 text-shadow: 3px 3px 2px rgba(00, 00, 00, 0.8);
  }
 
+
 /* ふった～～～～～～～↓ */
 
 footer
@@ -155,7 +156,6 @@ margin-top: 0;
 margin-bottom: 0;
 padding-top: 0;
 display:block;
-
 animation-name:fadeUpAnime;
 animation-duration:0.5s;
 animation-fill-mode:forwards;
@@ -179,7 +179,7 @@ opacity:0;
 .box1 
  {
 width: 750px;
-padding: 0px 0px 0px 0px;
+padding: 0 0 0.5em 0;
 margin-top: 3em;
 margin-right: auto;
 margin-left: auto;
@@ -208,7 +208,7 @@ text-shadow: 2px 2px rgba(255, 255, 255, 1);
 
 .box1inner
  {
-margin:1.5em;
+margin:2em;
  }
 
 .boxcr
@@ -216,6 +216,26 @@ margin:1.5em;
 display: flex;
 margin:1.5em;
  }
+
+/* ぷろふぃ～～～る */
+
+.contact
+ {
+display: flex;
+justify-content: space-around;
+ }
+
+.con_box
+ {
+width: 250px;
+height: 2.3em;
+line-height: 2.3em;
+text-align:center;
+border-radius: 15px;
+color: #ffffff;
+font-weight: bold;
+ }
+
 
 /* スキルテーブル */
 
@@ -383,5 +403,5 @@ transition:		all 0.2s ease;
 
 .over:hover .mask 
 {
-	opacity:		1;	/* マスクを表示する */
+opacity:		1;	/* マスクを表示する */
 }
