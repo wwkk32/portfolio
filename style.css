@@ -306,7 +306,8 @@ margin-right:auto;
 border-bottom: dashed #0aa10d 1px;
 border-top: dashed #0aa10d 1px;
 padding:0.1em;
-padding-left:0.3em;
+padding-left:0.8em;
+em;
  } 
 
 .gameinfo ul
@@ -315,7 +316,7 @@ margin-top: 0.5em;
 margin-bottom:0.3em;
 line-height:130%;
 list-style-type: square;
-padding-left: 2.3em;
+padding-left: 1em;
  }
 
 .w_cap
