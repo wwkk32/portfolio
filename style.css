@@ -45,7 +45,7 @@ background: linear-gradient(#ffffff 30%, #cfffd0 70%);
  }
 
 header .title::before{
-content:"wako nakai portfolio";
+content:"Hiroko Nakai Portfolio";
 position: absolute;
 color: rgba(0, 0, 0, 0);
 background: linear-gradient(#ffffff 30%, #cfffd0 70%);
